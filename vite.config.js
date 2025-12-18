@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  root: resolve(__dirname, 'Portfolio/html5up-multiverse'),
+  root: resolve(__dirname, 'html5up-multiverse'),
   server: {
     port: 3000,
     open: true
@@ -16,7 +16,7 @@ export default defineConfig({
     outDir: resolve(__dirname, 'dist'),
     emptyOutDir: true,
     rollupOptions: {
-      input: resolve(__dirname, 'Portfolio/html5up-multiverse/index.html')
+      input: resolve(__dirname, 'html5up-multiverse/index.html')
     }
   }
 });
